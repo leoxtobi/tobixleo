@@ -23,10 +23,10 @@ local function isWhitelisted(player)
 end
 
 local Window = Rayfield:CreateWindow({
-   Name = " Tobi X Leo   |      VIP",
+   Name = " JC HUB    |      VIP",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Loading...",
-   LoadingSubtitle = "by TobiXLeo",
+   LoadingSubtitle = "by vip_Leo",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -48,11 +48,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = " KEYS SYSTEM ",
       Subtitle = "Tobi X Leo |  VIP",
-      Note = "contact vip_leo or tobi006795 for keys", -- Use this to tell the user how to get a key
+      Note = "contact vip_leo or josecarlos_gonzz for keys", -- Use this to tell the user how to get a key
       FileName = "Key.txt", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"VIP1232"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"JC"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
